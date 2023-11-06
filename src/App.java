@@ -9,12 +9,17 @@ import entities.Product;
 import entities.usedProduct;
 
 public class App {
+    
+    /** 
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
     
     Scanner sc=new Scanner(System.in);
     
     List<Product> listProdcut=new ArrayList<>();
-        SimpleDateFormat sdf= new SimpleDateFormat("dd/MM/YYYY");
+    SimpleDateFormat sdf= new SimpleDateFormat("dd/MM/YYYY");
     
     System.out.print("Insert how many products you want insert");
     
@@ -42,6 +47,8 @@ public class App {
             System.out.print("Manufactorin Data - ");
             Date manufactoringData=sdf.parse(sc.nextLine());
             listProdcut.add(new usedProduct(nameOfProduct,priceOfProduct,manufactoringData));
+        }else{
+             listProdcut.add(new Product(nameOfProduct,priceOfProduct));
         }
       //
 
@@ -49,7 +56,7 @@ public class App {
 
     for(Product temp:listProdcut){
 
-        System.out.println(temp.priceTag());
+        System.out.println(temp.priceTag()+"\n");
     }
 
     
