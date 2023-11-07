@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicio_5",
+            "request": "launch",
+            "mainClass": "Exercicio_5",
+            "projectName": "CursoDual_b9a90ddb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_4",
+            "request": "launch",
+            "mainClass": "Exercicio_4",
+            "projectName": "CursoDual_b9a90ddb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_3",
+            "request": "launch",
+            "mainClass": "Exercicio_3",
+            "projectName": "CursoDual_b9a90ddb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_2",
+            "request": "launch",
+            "mainClass": "Exercicio_2",
+            "projectName": "CursoDual_b9a90ddb"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",

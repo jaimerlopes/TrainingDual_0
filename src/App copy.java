@@ -8,7 +8,7 @@ import entities.ImportedProducted;
 import entities.Product;
 import entities.usedProduct;
 
-public class App {
+public class Exercicio_2 {
     
     /** 
      * @param args
