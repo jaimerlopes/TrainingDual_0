@@ -14,10 +14,8 @@ public class Exercicio_3 {
      * @param args
      * @throws Exception
      */
-    public static  Integer NumeroDeBroas=0;
-    public static Integer NumeroDeBaguetes=0;
 
-    public static void main(String[] args) throws Exception {
+     public static void main(String[] args) throws Exception {
     
     Scanner sc=new Scanner(System.in);
 
