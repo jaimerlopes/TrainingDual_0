@@ -14,8 +14,6 @@ public class Exercicio_5 {
      * @param args
      * @throws Exception
      */
-    public static  Integer NumeroDeBroas=0;
-    public static Integer NumeroDeBaguetes=0;
 
     public static void main(String[] args) throws Exception {
     
