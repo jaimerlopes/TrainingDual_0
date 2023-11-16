@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicio_Condicional_2",
+            "request": "launch",
+            "mainClass": "Exercicio_Condicional_2",
+            "projectName": "CursoDual_b9a90ddb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_Condicional_1",
+            "request": "launch",
+            "mainClass": "Exercicio_Condicional_1",
+            "projectName": "CursoDual_b9a90ddb"
+        },
+        {
+            "type": "java",
             "name": "Exercicio_5",
             "request": "launch",
             "mainClass": "Exercicio_5",
